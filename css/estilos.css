@@ -7,18 +7,15 @@ img{
   vertical-align: top;
 }
 
-section{
-  width: auto;
+img#responsive{
+  display: none;
 }
 
-div {
-  width: 100%;
-}
-
-div #curso{
-  width: 80%;
-}
-h1{
-  text-align: center;
-
+@media screen and (max-width: 768px){
+  img#responsive{
+    display: block;
+  }
+  img{
+    display: none;
+  }
 }
