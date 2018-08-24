@@ -6,3 +6,19 @@ img{
   max-width: 100%;
   vertical-align: top;
 }
+
+section{
+  width: auto;
+}
+
+div {
+  width: 100%;
+}
+
+div #curso{
+  width: 80%;
+}
+h1{
+  text-align: center;
+
+}
